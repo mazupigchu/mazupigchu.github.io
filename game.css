@@ -1,0 +1,320 @@
+
+@media only screen 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+    body{
+        background-color: white;
+        max-width: 980px;
+        max-height: 1670px;
+        width:100%;
+        height:100%;
+         }
+      
+    .image {
+        max-width: 100vw;
+        max-height: 100vh;
+        position: fixed;
+        bottom:0px;
+        background-size: cover;
+        z-index: -99;
+      }
+    .enter{
+        height:80px;
+        width:180px;
+        position: fixed;
+        bottom:500px;
+        left:420px;
+        display: block;
+        z-index: 99;
+      }
+    .left{
+        height:550px;
+        width:480px;
+        position: fixed;
+        top:790px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .right{
+        height:550px;
+        width:480px;
+        position: fixed;
+        top:790px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .back{
+        height:750px;
+        width:100%;
+        position: fixed;
+        bottom:0;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .rightone{
+        height:500px;
+        width:530px;
+        position: fixed;
+        top:790px;
+        right:300px;
+        display: block;
+        z-index: 99;
+    }
+    .righttwo{
+        height:500px;
+        width:300px;
+        position: fixed;
+        top:790px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .rightonly{
+        height:500px;
+        width:600px;
+        position: fixed;
+        top:790px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .leftonly{
+        height:500px;
+        width:600px;
+        position: fixed;
+        top:790px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .leftone{
+        height:500px;
+        width:530px;
+        position: fixed;
+        top:790px;
+        left:300px;
+        display: block;
+        z-index: 99;
+    }
+    .lefttwo{
+        height:500px;
+        width:300px;
+        position: fixed;
+        top:790px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .up{
+        height:600px;
+        width:400px;
+        position: fixed;
+        top:790px;
+        right:280px;
+        display: block;
+        z-index: 99;
+    }
+    .door{
+        height:900px;
+        width:400px;
+        position: fixed;
+        top:500px;
+        right:280px;
+        display: block;
+        z-index: 99;
+    }
+    .a{
+        height:500px;
+        width:250px;
+        position: fixed;
+        top:800px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .b{
+        height:500px;
+        width:250px;
+        position: fixed;
+        top:800px;
+        right:360px;
+        display: block;
+        z-index: 99;
+    }
+    .c{
+        height:500px;
+        width:250px;
+        position: fixed;
+        top:800px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+}
+
+
+
+
+@media only screen 
+and (device-height : 667px) 
+{ 
+
+
+
+    body{
+        background-color: white;
+        max-width: 980px;
+        max-height: 1670px;
+         }
+      
+
+   .image {
+        width: 100%;
+        bottom:-350px;
+        position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -99;
+      }
+    .enter{
+        height:80px;
+        width:180px;
+        position: fixed;
+        bottom:0px;
+        left:420px;
+        display: block;
+        z-index: 99;
+      }
+    .left{
+        height:550px;
+        width:480px;
+        position: fixed;
+        top:790px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .right{
+        height:550px;
+        width:480px;
+        position: fixed;
+        top:790px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .back{
+        height:450px;
+        width:100%;
+        position: fixed;
+        bottom:0;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .rightone{
+        height:500px;
+        width:530px;
+        position: fixed;
+        top:790px;
+        right:300px;
+        display: block;
+        z-index: 99;
+    }
+    .righttwo{
+        height:500px;
+        width:300px;
+        position: fixed;
+        top:790px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .rightonly{
+        height:500px;
+        width:600px;
+        position: fixed;
+        top:790px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+    .leftonly{
+        height:500px;
+        width:600px;
+        position: fixed;
+        top:790px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .leftone{
+        height:500px;
+        width:530px;
+        position: fixed;
+        top:790px;
+        left:300px;
+        display: block;
+        z-index: 99;
+    }
+    .lefttwo{
+        height:500px;
+        width:300px;
+        position: fixed;
+        top:790px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .up{
+        height:600px;
+        width:400px;
+        position: fixed;
+        top:790px;
+        right:280px;
+        display: block;
+        z-index: 99;
+    }
+    .door{
+        height:900px;
+        width:400px;
+        position: fixed;
+        top:500px;
+        right:280px;
+        display: block;
+        z-index: 99;
+    }
+    .a{
+        height:500px;
+        width:250px;
+        position: fixed;
+        top:800px;
+        left:0px;
+        display: block;
+        z-index: 99;
+    }
+    .b{
+        height:500px;
+        width:250px;
+        position: fixed;
+        top:800px;
+        right:360px;
+        display: block;
+        z-index: 99;
+    }
+    .c{
+        height:500px;
+        width:250px;
+        position: fixed;
+        top:800px;
+        right:0px;
+        display: block;
+        z-index: 99;
+    }
+
+
+ }
