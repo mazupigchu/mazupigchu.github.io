@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>the thread of ariadne</title>
+    <link rel="stylesheet" href="game.css"/>
+
+    <style> 
+
+        @keyframes opacityFade{
+            0%{
+                opacity: 1;
+            }
+
+            100%{
+                opacity: 0;
+            }
+        }
+
+        .thing{
+            opacity: 1;
+            animation-name: opacityFade;
+            animation-duration: 2.5s;
+            animation-fill-mode: forwards;
+            animation-delay: 3s;
+        }
+
+        body{
+            transition: opacity 2s;
+        }
+    
+    </style>
+</head>
+
+<body>
+<div id="thing" class="thing">
+    <a href="2.html" >
+        <img class="image" src="1.svg">
+    </a>
+</div>
+</body> 
+<script>
+
+var timer = setTimeout(function() {
+            window.location='2.html'
+        }, 6000);
+
+</script>
+</html>
